@@ -1,0 +1,19 @@
+{
+    "name": "proton-systems/kirby-asset-hash",
+    "description": "Kirby Asset Hash",
+    "type": "kirby-plugin",
+    "license": "Apache 2.0",
+    "autoload": {
+        "files": ["config.php"],
+        "psr-4": {
+            "proton-systems": "src/classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe Proaño",
+            "email": "hello@proton.systems"
+        }
+    ],
+    "require": {}
+}
